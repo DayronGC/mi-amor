@@ -69,19 +69,16 @@ noBtn.style.top=y+'%';
 
 function acepto(){
 
-    const respuesta = document.getElementById('respuesta');
+const respuesta=document.getElementById('respuesta');
 
-    if(respuesta){
-        respuesta.innerHTML = '❤️ Sabía que dirías que sí ❤️';
-    }
+if(respuesta){
 
-    lanzarFuegos();
+respuesta.innerHTML='❤️ Sabía que dirías que sí ❤️';
 
-    // 🔥 abrir el link de Roblox
-    window.open(
-        "https://www.roblox.com/es/games/142823291/Murder-Mystery-2",
-        "_blank"
-    );
+}
+
+lanzarFuegos();
+
 }
 
 function lanzarFuegos(){
