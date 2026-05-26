@@ -77,9 +77,13 @@ function acepto(){
 
     lanzarFuegos();
 
-    // abrir link directo
-    window.location.href = "https://www.roblox.com/es/games/142823291/Murder-Mystery-2";
+    // 🔥 abrir el link de Roblox
+    window.open(
+        "https://www.roblox.com/es/games/142823291/Murder-Mystery-2",
+        "_blank"
+    );
 }
+
 function lanzarFuegos(){
 
 const canvas=document.getElementById('fuegos');
