@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Pregunta ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body class="final">
+
+<audio id="musica" autoplay loop>
+    <source src="music/romantica.mp3" type="audio/mp3">
+</audio>
+
+<canvas id="fuegos"></canvas>
+
+<div class="contenido glass final-box">
+
+    <h1>
+        ¿Quieres ser mi novia por siempre? ❤️
+    </h1>
+
+    <p class="texto">
+        Prometo cuidarte, escucharte,
+        apoyarte y hacerte feliz todos los días que pueda.
+    </p>
+
+    <div class="botones">
+
+        <button class="boton si" onclick="acepto()">
+            ❤️ Sí
+        </button>
+
+        <button class="boton no" id="noBtn">
+            😳 No
+        </button>
+
+    </div>
+
+    <h2 id="respuesta"></h2>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
